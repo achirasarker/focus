@@ -217,5 +217,7 @@ p {
   .phone {
     position: static;
     transform: rotate(0);
+    padding-left: 15%;
+    padding-top: 3%;
   }
 }
