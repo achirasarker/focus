@@ -210,3 +210,12 @@ p {
   padding-top: 15%;
   text-align: center;
 }
+
+/* Media Queries */
+@media (max-width: 1028px) {
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
