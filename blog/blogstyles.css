@@ -1,0 +1,50 @@
+/* Colour Sections */
+
+.darkSection {
+  /* background-color: #abd5ee; */
+  background-color: #C7E9F9;
+  color: #509ed5;
+}
+
+.tealSection {
+  color: #509ed5;
+  background-color: #8cc2e5;
+}
+
+/* Footer section */
+#footer {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-padding {
+  padding: 2% 15% 7%;
+}
+
+.footer-caption {
+  font-family: "Ubuntu";
+}
+
+.media-icon {
+  padding: 20px 10px;
+}
+
+/* containers  */
+.thecontainer-fluid {
+  padding: 7% 15% 7%; /* this padding makes arrows further out so they aren't squished in */
+}
+
+/* Blog page  */
+.blog-title {
+  font-family: 'Russo One', sans-serif;
+  font-size: 3rem;
+  /* padding-top: 15%; */
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.blogfocuslogo {
+  padding: 5% 8% 5%;
+  height: 22%;
+  width: 22%;
+}
