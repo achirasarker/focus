@@ -1,0 +1,212 @@
+/* Colour Sections */
+
+.darkSection {
+  /* background-color: #abd5ee; */
+  background-color: #C7E9F9;
+  color: #509ed5;
+}
+
+.tealSection {
+  color: #509ed5;
+  background-color: #8cc2e5;
+}
+
+/* Section One */
+.focuslogo {
+  padding-left: 10%;
+  height: 17%;
+  width: 17%;
+}
+
+#title {
+  padding: 2% 5% 5%;
+}
+
+
+.focus-title {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0 10% 0;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  /* font-family: "Montserrat"; */
+  font-family: "PT Sans", sans-serif;
+}
+
+
+.heading {
+  font-family: 'Russo One', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding: 15% 15% 15%;
+}
+
+.catchphrase {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.5rem;
+  padding-left: 15%;
+}
+
+
+/* Title Image */
+.phone {
+  width: 60%; /* makes width 60% of what it used to be */
+  transform: rotate(25deg);
+  position: absolute;
+  /* z-index: -1 (cant put this else phone image will go behind it all) */
+  right: 30%; /* moved 30% to the right*/
+}
+
+/* Features section */
+#about {
+  position: relative;
+  /* z-index: 1 (no need since features section has relative position SO its on top of iphone) */
+}
+
+.focus-fluid {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+/* Sections */
+.thecontainer-fluid {
+  padding: 7% 15% 7%; /* this padding makes arrows further out so they aren't squished in */
+}
+
+/* About section */
+
+#about {
+  padding: 5% 8% 5%;
+}
+
+.about-heading {
+  /* font-family: "Montserrat"; */
+  font-family: 'Russo One', sans-serif;
+  line-height: 1.2;
+  padding: 5% 7.5% 0;
+  text-align: left;
+}
+
+.about-section {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 5% 7% 5%;
+}
+
+
+/* meet the Team */
+
+.team-section{
+  padding: 5% 8% 3%;
+}
+
+.team-heading {
+  font-family: 'Russo One', sans-serif;
+  padding: 4% 8% 0;
+}
+
+.person-name {
+  font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.person-png {
+  height: 200px;
+}
+
+.person-png:hover {
+  opacity: 0.5;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row-padding {
+  padding-left: 12%;
+}
+
+
+/* Footer Section  */
+#footer {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-padding {
+  padding: 2% 15% 7%;
+}
+
+.footer-caption {
+  font-family: "Ubuntu";
+}
+
+.media-icon {
+  padding: 20px 10px;
+}
+
+
+/* Contact page */
+#contactus {
+  padding: 5% 15% 2%;
+}
+
+.contact-note {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-bottom: 10%;
+  padding-top: 14%;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+.contact {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* Blog page  */
+.blog-section {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  padding-top: 15%;
+  text-align: center;
+}
