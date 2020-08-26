@@ -214,7 +214,7 @@ p {
 /* Media Queries */
 @media (max-width: 1028px) {
 
-  .iphone {
+  .phone {
     position: static;
     transform: rotate(0);
   }
