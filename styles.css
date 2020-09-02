@@ -7,9 +7,13 @@
 }
 
 .tealSection {
-  /* color: #509ed5; */
   background-color: #8cc2e5;
   color: black;
+}
+
+.footerSection {
+  color: #509ed5;
+  background-color: #8cc2e5;
 }
 
 /* Section One */
