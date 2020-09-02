@@ -1,13 +1,12 @@
 /* Colour Sections */
 .darkSection {
-  /* background-color: #abd5ee; */
   background-color: #C7E9F9;
-  color: #509ed5;
+  color: black;
 }
 
-.tealSection {
-  color: #509ed5;
+.footerSection {
   background-color: #8cc2e5;
+  color: #509ed5;
 }
 
 /* Footer Section  */
