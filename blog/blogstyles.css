@@ -3,10 +3,10 @@
 .darkSection {
   /* background-color: #abd5ee; */
   background-color: #C7E9F9;
-  color: #509ed5;
+  color: black;
 }
 
-.tealSection {
+.footerSection {
   color: #509ed5;
   background-color: #8cc2e5;
 }
