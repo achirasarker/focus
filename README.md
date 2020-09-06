@@ -1,4 +1,4 @@
 # focus
 
 Focus site.<br>
-View at visitfocus.tech 
+<a href="https://visitfocus.tech/">Click</a> to view the website. 
