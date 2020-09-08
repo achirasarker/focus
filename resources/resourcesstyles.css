@@ -102,3 +102,11 @@ ul, ol {
   margin-left: 550px;
   padding-bottom: 0;
 }
+
+@media (max-width: 1028px) {
+
+  .footer-padding {
+    margin-top: 50%;
+  }
+
+}
