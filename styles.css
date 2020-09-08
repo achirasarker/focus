@@ -255,6 +255,7 @@ p {
     z-index: 1;
     background: rgba(0, 0, 0, 0.8);
     overflow: hidden;
+    transition: 0.9s ease-in-out;
   }
 
   .dropdown-content {
@@ -266,6 +267,7 @@ p {
     font-size: 18px;
     display: block;
     color: black;
+    transition: 0.4s ease-in-out;
   }
 
   /* .container-fluid .closebtn {
