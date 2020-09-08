@@ -18,10 +18,12 @@
 
   <section class="darkSection" id="title">
     <div class="container-fluid">
+      <!-- <span class="closebtn" onclick="closeMenu()">&times;</span> -->
 
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+      <!-- no fixed-top class to nav, else it'll be fixed  -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 
-        <a class="navbar-brand" href="#" style="color: #509ed5;">
+        <a class="navbar-brand" href="#" style="color: black;">
           <!-- <img src="images/focus.jpeg" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy"> -->
         </a>
 
@@ -29,40 +31,40 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse fixed-top" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
 
             <li class="nav-item dropdown bg-transparent">
-              <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle dropdown-content" style="color: black;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Home
               </a>
               <div class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdown" >
-                <a class="dropdown-item" style="color: black;" href="#about">About</a>
-                <a class="dropdown-item" style="color: black;" href="#team">Team</a>
+                <a class="dropdown-item dropdown-content closecontent" style="color: black;" href="#about">About</a>
+                <a class="dropdown-item dropdown-content closecontent" style="color: black;" href="#team">Team</a>
               </div>
             </li>
 
 
             <li class="nav-item dropdown bg-transparent">
-              <a style="color: black;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="color: black;" class="nav-link dropdown-toggle dropdown-content" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Resources
               </a>
               <div class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdown" >
-                <a style="color: black;" class="dropdown-item text-black" href="resources/health.html">Health & Wellness</a>
+                <a style="color: black;" class="dropdown-item text-black dropdown-content" href="resources/health.html">Health & Wellness</a>
                 <!-- <div class="dropdown-divider"></div> -->
-                <a style="color: black;" class="dropdown-item text-black" href="resources/productivity.html">Productivity</a>
+                <a style="color: black;" class="dropdown-item text-black dropdown-content" href="resources/productivity.html">Productivity</a>
                 <!-- <a class="dropdown-item text-black" href="#">Goal Planning</a> -->
-                <a style="color: black;" class="dropdown-item text-black" href="resources/college.html">College Apps</a>
-                <a style="color: black;" class="dropdown-item text-black" href="resources/resume.html">Resume</a>
+                <a style="color: black;" class="dropdown-item text-black dropdown-content" href="resources/college.html">College Apps</a>
+                <a style="color: black;" class="dropdown-item text-black dropdown-content" href="resources/resume.html">Resume</a>
               </div>
             </li>
 
 
             <li class="nav-item bg-transparent">
-              <a style="color: black;" class="nav-link" href="contact.html">Contact</a>
+              <a style="color: black;" class="nav-link dropdown-content" href="contact.html">Contact</a>
             </li>
             <li class="nav-item bg-transparent">
-              <a style="color: black;" class="nav-link" href="blog/blog.html">Blog</a>
+              <a style="color: black;" class="nav-link dropdown-content" href="blog/blog.html">Blog</a>
             </li>
           </ul>
         </div>
@@ -76,7 +78,7 @@
       <div class="row">
 
         <div class="col-lg-6 focus-fluid">
-          <h4 class="heading">A virtual space dedicated to students, where you can get access to resources, tips and information.</h4>
+          <h4 class="heading">A virtual hub dedicated to students, where you can get access to resources, tips and information.</h4>
           <h6 class="catchphrase">Built by students, for students.</h6>
         </div>
 
@@ -153,8 +155,8 @@
 
 
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
 </body>
 
 </html>
