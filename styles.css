@@ -35,6 +35,8 @@
   padding: 0 10% 0;
 }
 
+
+/* Navbar  */
 .nav-item {
   padding: 0 15px;
 }
@@ -43,6 +45,10 @@
   font-size: 1.1rem;
   /* font-family: "Montserrat"; */
   font-family: "PT Sans", sans-serif;
+}
+
+.dropdown-menu {
+  border: none;
 }
 
 
@@ -224,5 +230,52 @@ p {
     transform: rotate(0);
     padding-left: 15%;
     padding-top: 3%;
+    margin-left: 15%;
+    margin-bottom: 4%;
+    margin-top: 4%;
   }
+
+  .container-fluid .navbar-toggler {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 36px;
+    right: 48px;
+    font-size: 30px;
+  }
+
+  #navbarNav{
+    background: lightblue !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+  }
+
+  .dropdown-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    display: block;
+    color: black;
+  }
+
+  /* .container-fluid .closebtn {
+    position: absolute;
+    top: 36px;
+    right: 48px;
+    font-size: 25px;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+  } */
+
 }
