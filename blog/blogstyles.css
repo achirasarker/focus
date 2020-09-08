@@ -48,3 +48,11 @@
   height: 22%;
   width: 22%;
 }
+
+@media (max-width: 1028px) {
+
+  .thecontainer-fluid {
+    margin-top: 85%;
+  }
+
+}
